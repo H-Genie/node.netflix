@@ -1,0 +1,101 @@
+@import url("basic.css");
+ 
+
+/* element */
+.padding_top_58 {padding-top: 58px;}
+.font_size_25 {font-size: 25px;}
+.margin_upbottm_52 {padding: 52px 0;}
+
+
+/* header */
+#logo {width: 167px; height: 45px;}
+.home_header {width: 100%; padding: 28px 56px 0; display: flex; justify-content: space-between; position: absolute; top: 0; left: 0;}
+.home_header button {width: 80px; height: 40px; text-align: center; line-height: 40px; background-color: #e50914; border-radius: 6px;}
+
+hr {height: 8px; color: #222;}
+
+
+
+/* home_header */
+.home_hero {width: 100%; height: 785px;  background-image: url(../img/section_01.jpg); background-size: cover; background-position: center;}
+
+.hero_container {width: 100%; height: 100%; background-color: rgba(0,0,0,0.4); display: flex; align-items: center; justify-content: center; flex-direction: column; background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);}
+
+.home_hero h4 {margin: 16px 0 30px;}
+.home_hero h5 {margin-top: 14px;}
+
+.form_email {max-width: 760px; height: 70px; display: flex; justify-content: center; align-items: center;}
+.form_email_container {display: flex; flex-direction: column; align-items: center;}
+.form_email input {width: 500px; height: 100%; background-color: white; color: gray; text-align: left; padding: 0 20px; border-radius: 4px 0 0 4px;}
+.form_email button {width: 260px; height: 100%; background-color: #e50914; border-radius: 0 4px 4px 0;}
+
+
+
+
+
+
+/* card_animation */
+.card_animation {width: 100%; background-color: black; padding: 70px 45px;}
+
+.card_animation .container {max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; background-color: black;}
+.card_animation .text {width: 52%;}
+.card_animation .text br {display: noe;}
+
+.card_animation h2 {margin-bottom: 8px;}
+.card_animation >h4 {margin-top: 19.5px;}
+
+.card_animation .img {width: 48%; position: relative;}
+.card_animation .img img {width: 100%; height: 100%; position: relative; z-index: 2;} 
+.card_animation .img >div {position: absolute; left: 13.5%; top: 21%;}
+.card_animation .img >div video {width: 84%;}
+
+
+
+/* card_animation_02 */
+.card_animation .img_02 {width: 48%; position: relative; margin-left: -8%;}
+.card_animation .img_02 img {max-width: 100%;  overflow: hidden;}
+
+.card_animation .sub-img {width: 60%; height: 25%; margin: 0 auto; padding: 12px 12px;   background-color: black; display: flex; align-items: center; border-radius: 12px; border:2px solid rgba(255,255,255,0.25); position: absolute; bottom: 0; left: 20%;}
+.card_animation .sub-img img {height: 100%;}
+.card_animation .sub-img >div:nth-of-type(1) {padding-left: 12px; margin-right: 16px;}
+.card_animation .sub-img >div:nth-of-type(2) {width: 180px;}
+.card_animation .sub-img >div:nth-of-type(3) {height: 100%;}
+.card_animation .sub-img >div:nth-of-type(3) img {height: 100%;}
+.card_animation .text_02 {width: 52%;}
+
+
+/* card_animation_03 */
+.card_animation .img_03 {width: 48%; position: relative;}
+.card_animation .img_03 img {width: 100%; height: 100%; position: relative; z-index: 2;} 
+.card_animation .img_03 >div {position: absolute; left: 18.5%; top: 10.5%;} 
+.card_animation .img_03 video {width: 76%;}
+
+
+
+/* 아코디언(자주 묻는 질문) */
+.section_qna {width: 100%; background-color: black;}
+.section_qna .container {width: 75%; margin: 0 auto; display: flex; flex-direction: column; align-items: center;}
+.section_qna h2 {margin: 52px 0;}
+.section_qna button {width: 815px; background-color: #303030; padding: 20px 31px 20px 31px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;}
+.icon_plus {transform: rotate(0deg); width: 18px; transition: transform 0.25s cubic-bezier(0.5, 0, 0.1, 1);}
+
+.box {width: 815px; height: auto; background-color: #303030; padding: 31px; margin-bottom: 8px; display: none;} 
+.box h4 {line-height: 1.5em;}
+
+.flex_center {margin-bottom: 20px; text-align: center;}
+
+
+
+
+/* footer */
+footer {width: 100%; padding: 70px 45px; background-color: black;}
+
+footer .container {max-width: 900px; margin: 0 auto; color: #757575;}
+
+footer >div >h6 {margin-bottom: 30px; display: inline-block;}
+footer a:hover {text-decoration: underline; cursor: pointer;}
+footer ul {display: flex; flex-wrap: wrap;}
+footer li {width: 25%; margin-bottom: 16px;}
+
+.select {width: fit-content; border-radius: 4px; border: 0.5px solid #999999; color: #999999; display: flex; align-items: center; padding: 18px 12px 18px 12px; margin-top: 20px;}
+select {padding: 0 20px;}

@@ -1,0 +1,50 @@
+@import url("basic.css");
+ 
+
+/* element */
+.padding_top_58 {padding-top: 58px;}
+.font_size_25 {font-size: 25px;}
+.margin_upbottm_52 {padding: 52px 0;}
+
+
+/* header */
+#logo {width: 167px; height: 45px;}
+.home_header {width: 100%; padding: 28px 56px 0; display: flex; justify-content: space-between; position: absolute; top: 0; left: 0;}
+.home_header button {width: 80px; height: 40px; text-align: center; line-height: 40px; background-color: #e50914; border-radius: 6px;}
+
+hr {height: 8px; color: #222;}
+
+
+
+/* home_header */
+.home_hero {width: 100%; background-image: url(../img/section_01.jpg);}
+
+.hero_container {background-color: rgba(0,0,0,0.4); background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); display: flex; justify-content: center;}
+
+
+
+/* movies */
+.movies {display: grid; grid-template-columns: repeat(2,minmax(400px,1fr)); grid-gap: 100px; padding: 70px 50px 50px;}
+.movie {background-color: #fff; font-weight: 300; padding: 20px; border-radius: 5px; color: #abaeb9; box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px #000; display: flex;}
+
+.movie img {position: relative; top: -50px; max-width: 150px; width: 100%; margin-right: 30px; box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);}
+.movie_data {text-align: left;}
+
+.movie_title {margin-bottom: 16px; font-size: 24px; color: #2c2c2c;}
+.movie_year {margin-bottom: 16px; font-size: 14px;}
+.movie_genres {margin-bottom: 16px;}
+
+
+
+/* footer */
+footer {width: 100%; padding: 70px 45px; background-color: black;}
+
+footer .container {max-width: 900px; margin: 0 auto; color: #757575;}
+
+footer >div >h6 {margin-bottom: 30px; display: inline-block;}
+footer a:hover {text-decoration: underline; cursor: pointer;}
+footer ul {display: flex; flex-wrap: wrap;}
+footer li {width: 25%; margin-bottom: 16px;}
+
+.select {width: fit-content; border-radius: 4px; border: 0.5px solid #999999; color: #999999; display: flex; align-items: center; padding: 18px 12px 18px 12px; margin-top: 20px;}
+select {padding: 0 20px;}

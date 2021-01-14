@@ -1,0 +1,170 @@
+/* 넷플릭스 클론 코딩 */
+@media screen and (max-width:1024px) {
+    .card_animation h2 {font-size: 40px;}
+    .card_animation h4 {font-size: 20px;}
+}
+
+
+@media screen and (max-width:949px) {
+    #logo {width: 145px; height: 40px;}
+
+    /* hero */
+    .home_hero h1 {font-size: 50px;}    
+    .home_hero h4 {margin-bottom: 0}
+    .form_email {height: auto;}
+ 
+    .form_email_container {flex-direction: column-reverse; height: auto;}
+    .form_email_container h5 {max-width: 500px; padding: 0 10%; height: auto;}
+    .form_email {display: block;}
+    .form_email input {border-radius: 4px; margin: 10px 0 20px 0;height: 60px;}
+    .form_email button {border-radius: 4px; height: 44px; width: 160px; display: block; margin: 0 auto; line-height: 44px;}
+    .form_email h3 {font-size: 16px;}
+
+    /* card_animation */
+    .card_animation .container {flex-direction: column; width: 100%;}
+    .card_animation .text {width: 100%; text-align: center;}
+    .card_animation .text h2 {font-size: 40px;}
+    .card_animation .text h4 {font-size: 20px; margin-top: 40px; line-height: 1.5em;}
+    .card_animation .img {width: 90%;}
+    .card_animation .img >div {width: 73%;}
+    .card_animation .img >div video {min-width: 100%;}
+    
+    /* card_animation_02 */
+    .sss {flex-direction: column-reverse !important;}
+    .card_animation .img_02 {min-width: 70%; margin-left: 0;}
+    .card_animation .img_02 img {min-width: 100%;}
+    
+    .text_02 h4 {margin-bottom: 30px;}
+    .card_animation .text_02 {width: 100%; text-align: center;}
+    .card_animation .text_02 h2 {font-size: 40px;}
+    .card_animation .text_02 h4 {font-size: 20px; margin-top: 40px;}
+    .card_animation .text br {display: block;}
+    .img_02 >img {min-width: 100%;}
+    
+    /* card_animation_03 */
+    .card_animation .img_03 {width: 90%;}
+    .card_animation .img_03 >div {width: 62%;}
+    .card_animation .img_03 video {min-width: 100%;}
+
+    /* accordion */
+    .section_qna button {width: 100%; padding: 20px;}
+    .section_qna h2 {font-size: 40px;}
+    .section_qna h4 {font-size: 20px;}
+    .section_qna .box {width: 100%; padding: 20px;}
+    /* 하단 이메일 */
+    .flex_center {display: flex; flex-direction: column; align-items: center; justify-content: center; height: auto; margin: 10px 0;}    
+    .form_email_text_width {padding: 0 !important;  max-width: 633px !important;}
+    .form_email_container h5 {text-align: center; padding: 0 5% !important;}
+
+    /* footer */
+    footer .container {padding: 0 10%;}
+}
+
+@media screen and (max-width:740px) {
+    .hero_container {background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.8) 100%);}    
+    .form_email input {height: 44px;}    
+    .home_hero h4 {max-width: 640px;}
+    .home_hero h5 {max-width: 450px;}
+
+    /* card_animation */
+    .card_animation .img_02 {min-width: 100%;}
+
+    .section_qna h4 {font-size: 18px;}
+    .icon_plus {width: 15px;}
+
+    /* 하단 이메일 */
+    .form_email_container h5 {max-width: 450px; text-align: center;}
+    #logo {width: 100px; height: 28px;}
+    .home_header button {width: 60px; height: 30px; line-height: 30px; font-size: 14px;}
+
+    /*footer*/
+    footer li {width: 33%;}
+}
+
+@media screen and (max-width:549px) {
+    .home_header {padding: 20px;}
+    .home_hero {height: 512px;}
+    .home_hero h1 {font-size: 28px;}
+    .home_hero h4 {font-size: 18px;}
+    .form_email {width: 100%; }       
+
+    /* card_animation */
+    .card_animation h2 {font-size: 30px !important;}
+    card_animation h4 {font-size: 18px !important;}
+
+    .card_animation .img {width: 100%;}
+    .card_animation .img_03 {width: 100%;}
+
+    /* accordion */
+    .section_qna .container {width: 100%;}
+    .section_qna button {height: 53px; padding: 0 20px;}
+    /* 하단 이메일 */
+    .form_email input {max-width: 450px;}
+    .form_email_container h5 {max-width: 500px;}
+}
+
+
+@media screen and (max-width:500px) {
+    footer {padding: 10%;}
+    footer .container {padding: 0;}
+    footer ul {display: flex; justify-content: space-between;}
+    footer li {width: 34%;}
+}
+
+
+/*  저장중.. 맞춤 미디어 쿼리 */
+@media screen and (max-width:463px) {
+    .sub-img {height: 30% !important;}
+}
+
+@media screen and (max-width:430px) {
+    .home_hero h4 {padding: 0 10%;}
+    .card_animation h2 {font-size: 28px !important;}
+    .card_animation h4 {font-size: 18px !important;}
+    
+    .section_qna h2 {font-size: 30px;}
+}
+
+@media screen and (max-width:424px) {
+    .sub-img {padding: 2px 3px !important;}
+    .sub-img h6 {font-size: 12px;}
+    .sub-img p {font-size: 12px;}
+}
+
+@media screen and (max-width:360px) {
+    .card_animation h2 {font-size: 25px !important;}
+    .card_animation h4 {font-size: 15px !important;}
+  
+    .section_qna h4 {font-size: 15px;}
+    .icon_plus {width: 15px;}
+    footer p {font-size: 10px !important;}
+}
+
+@media screen and (max-width:334px) {
+    .sub-img h6 {font-size: 10px;}
+    .sub-img p {font-size: 10px;}
+
+    .section_qna h4 {font-size: 12px;}
+    .icon_plus {width: 12px;}
+
+    .section_qna button {padding: 10px; height: auto;}
+    .box {padding: 10px;}
+}
+
+
+@media screen and (max-width:320px) {
+    .home_hero h4 {font-size: 15px;}
+    .form_email_container h5 {font-size: 12px !important;}
+    .card_animation h2 {font-size: 20px !important;}
+    .card_animation h4 {font-size: 12px !important;} 
+
+    .form_email h3 {font-size: 12px;}
+}
+
+
+/* 소형 모바일 맞춤 미디어 쿼리 */
+@media screen and (max-width:450px) {
+    .form_email input {max-width: 300px;}
+    .form_email button {width: 120px;}
+    .form_email_container h5 {font-size: 15px;}   
+}

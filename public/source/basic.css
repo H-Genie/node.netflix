@@ -1,0 +1,24 @@
+@import url("reset.css");
+
+@font-face {font-family: NetflixSans; src: url(NetflixSans.woff2)}
+
+body {color: white; background-color: #222;}
+
+h1, h2, h3, h4, h5, h6, p {font-family: NetflixSans; -webkit-font-smoothing: antialiased; line-height: normal; word-break: keep-all;}
+
+.text_align_center {text-align: center;}
+
+h1 {font-size: 64px; font-weight: 700;}
+h2 {font-size: 50px; font-weight: 700;}
+h3 {font-size: 30px; font-weight: 400; letter-spacing: 0.1px;}
+h4 {font-size: 26px; font-weight: 400;}
+
+h5 {font-size: 19.2px; font-weight: 400;}
+h6 {font-size: 16px; font-weight: 400;}
+p {font-size: 14.4px; font-weight: 400;}
+.p_small {font-size: 13px;}
+.h3_sans {font-family: NetflixSans; font-size: 32px;}
+
+.color_blue {color: rgb(0,113,235);}
+.color_gray {color: rgb(179,179,179);}
+.color_darkgray {color: rgb(115,115,115);}
