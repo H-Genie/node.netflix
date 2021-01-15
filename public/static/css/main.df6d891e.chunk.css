@@ -1,2 +1,199 @@
-@import url(http://nicolas-cusan.github.io/destyle.css/destyle.css);#logo{width:167px;height:45px;background-image:url(/movie/static/media/logo.6dbba458.svg);background-size:100% 100%}.home_header{width:100%;padding:28px 56px 0;display:flex;justify-content:space-between;position:absolute;top:0;left:0}.home_header button{width:80px;height:40px;text-align:center;line-height:40px;background-color:#e50914;border-radius:6px;color:#fff}hr{height:8px;color:#222}.container{height:100%;background-image:url(/static/media/background.9f1f8f4d.jpg)}.container,.loader{display:flex;justify-content:center}.loader{width:100%;height:100vh;align-items:center;font-weight:300;color:#fff}.movies{display:grid;grid-template-columns:repeat(2,minmax(400px,1fr));grid-gap:100px;padding:174px 50px 100px;width:80%}@media screen and (max-width:1090px){.movies{grid-template-columns:1fr;width:100%}}.movie{background-color:#fff;font-weight:300;padding:20px;border-radius:5px;color:#abaeb9;box-shadow:0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px #000}.movie a{display:grid;grid-template-columns:minmax(150px,1fr) 2fr;grid-gap:20px;text-decoration:none;color:inherit}.movie img{position:relative;max-width:150px;width:100%;margin-right:30px;box-shadow:0 30px 60px -12px rgba(50,50,93,.25),0 18px 36px -18px rgba(0,0,0,.3),0 -12px 36px -8px rgba(0,0,0,.025)}.movie .movie_year,.movie_title{margin:0;font-weight:300}.movie_title{margin-bottom:5px;font-size:24px;color:#2c2c2c}.movie_genres{list-style:none;padding:0;display:flex;flex-wrap:wrap;margin:5px 0}.movie .movie_year,.movie_genres li{margin-right:10px;font-size:14px}@media screen and (max-width:450px){.home_header{padding:28px 20px 0}.movies{padding:174px 20px 100px}.movie a{display:block}}.detail{width:80%;padding:50px;margin:174px auto 100px;box-shadow:0 13px 27px -5px rgba(50,50,93,.25),0 8px 16px -8px rgba(0,0,0,.3),0 -6px 16px -6px #000;background-color:#fff}body{background-color:#000}.detail_genres{display:flex;padding:0}.detail_genres li{list-style:none;margin-right:10px}@media screen and (max-width:400px){.detail img{width:100%}.detail_summary{font-size:12px}}footer{width:100%;padding:70px 45px;background-color:#000;color:#757575}.footer_container{max-width:900px;margin:0 auto;flex-direction:column}footer ul{display:flex;flex-wrap:wrap}footer li{width:25%;margin-bottom:16px}footer>div>h6{margin-bottom:30px;display:inline-block}.p_small{font-size:13px;line-height:17px}.footer_margin{margin:24px 0 13px}@media screen and (max-width:949px){footer .container{padding:0 10%}}@media screen and (max-width:740px){footer li{width:33%}}@media screen and (max-width:500px){footer{padding:10%}footer .container{padding:0}footer ul{display:flex;justify-content:space-between}footer li{width:34%}}
+@import url(https://nicolas-cusan.github.io/destyle.css/destyle.css);
+#logo {
+    width: 167px;
+    height: 45px;
+    background-image: url(/movie/static/media/logo.6dbba458.svg);
+    background-size: 100% 100%;
+}
+.home_header {
+    width: 100%;
+    padding: 28px 56px 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.home_header button {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #e50914;
+    border-radius: 6px;
+    color: #fff;
+}
+hr {
+    height: 8px;
+    color: #222;
+}
+.container {
+    height: 100%;
+    background-image: url(/static/media/background.9f1f8f4d.jpg);
+}
+.container,
+.loader {
+    display: flex;
+    justify-content: center;
+}
+.loader {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    font-weight: 300;
+    color: #fff;
+}
+.movies {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
+    grid-gap: 100px;
+    padding: 174px 50px 100px;
+    width: 80%;
+}
+@media screen and (max-width: 1090px) {
+    .movies {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
+.movie {
+    background-color: #fff;
+    font-weight: 300;
+    padding: 20px;
+    border-radius: 5px;
+    color: #abaeb9;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px #000;
+}
+.movie a {
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) 2fr;
+    grid-gap: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+.movie img {
+    position: relative;
+    max-width: 150px;
+    width: 100%;
+    margin-right: 30px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+        0 18px 36px -18px rgba(0, 0, 0, 0.3),
+        0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+.movie .movie_year,
+.movie_title {
+    margin: 0;
+    font-weight: 300;
+}
+.movie_title {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
+}
+.movie_genres {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+.movie .movie_year,
+.movie_genres li {
+    margin-right: 10px;
+    font-size: 14px;
+}
+@media screen and (max-width: 450px) {
+    .home_header {
+        padding: 28px 20px 0;
+    }
+    .movies {
+        padding: 174px 20px 100px;
+    }
+    .movie a {
+        display: block;
+    }
+}
+.detail {
+    width: 80%;
+    padding: 50px;
+    margin: 174px auto 100px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px #000;
+    background-color: #fff;
+}
+body {
+    background-color: #000;
+}
+.detail_genres {
+    display: flex;
+    padding: 0;
+}
+.detail_genres li {
+    list-style: none;
+    margin-right: 10px;
+}
+@media screen and (max-width: 400px) {
+    .detail img {
+        width: 100%;
+    }
+    .detail_summary {
+        font-size: 12px;
+    }
+}
+footer {
+    width: 100%;
+    padding: 70px 45px;
+    background-color: #000;
+    color: #757575;
+}
+.footer_container {
+    max-width: 900px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer li {
+    width: 25%;
+    margin-bottom: 16px;
+}
+footer > div > h6 {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.p_small {
+    font-size: 13px;
+    line-height: 17px;
+}
+.footer_margin {
+    margin: 24px 0 13px;
+}
+@media screen and (max-width: 949px) {
+    footer .container {
+        padding: 0 10%;
+    }
+}
+@media screen and (max-width: 740px) {
+    footer li {
+        width: 33%;
+    }
+}
+@media screen and (max-width: 500px) {
+    footer {
+        padding: 10%;
+    }
+    footer .container {
+        padding: 0;
+    }
+    footer ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    footer li {
+        width: 34%;
+    }
+}
 /*# sourceMappingURL=main.df6d891e.chunk.css.map */
